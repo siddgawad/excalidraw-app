@@ -10,7 +10,9 @@
     "build": "tsc -p ."
   },
   "dependencies": {
-    "@repo/typescript-config": "workspace:*"
+    "@repo/typescript-config": "workspace:*",
+    "@types/ws": "^8.18.1",
+    "ws": "^8.18.3"
   },
   "keywords": [],
   "author": "",
